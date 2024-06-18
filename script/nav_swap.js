@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     /* 預設加載 init.html */
-    fetch('html/main/init.html')
+    fetch('html/init.html')
         .then(response => response.text())
         .then(html => {
             document.getElementById("main-content").innerHTML = html;

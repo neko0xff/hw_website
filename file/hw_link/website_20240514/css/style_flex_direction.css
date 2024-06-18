@@ -1,0 +1,10 @@
+.inner {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+.outter {
+    display: flex;
+    flex-direction: column-reverse;
+}

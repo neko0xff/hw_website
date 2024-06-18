@@ -1,0 +1,15 @@
+.inner {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 10px;
+    font-size: 3em;
+    color: brown;
+    display: flex;
+    justify-content: center;
+}
+
+.outter {
+    display: flex;
+    flex-direction: column-reverse;
+}

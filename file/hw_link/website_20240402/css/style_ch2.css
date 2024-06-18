@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+/*視窗背景色設定*/
+body {
+    background-color: rgba(217, 243, 158, 0.904);
+    background-image: url("../img/bg.jpg");
+    /*佈置:重復*/
+    background-repeat: repeat;
+    /*大小:自動化*/
+    background-size: auto;
+    background-position: top right;
+    /*位置:固定*/
+    background-attachment: fixed;
+
+}
+
+/*連結顏色設定*/
+a {
+    color: #df4839;
+}
+
+/*頁首,導覽,頁尾的共通設定*/
+
+
+/*導覽樣式設定*/
+#menu li {
+    list-style-type: none;
+    display: inline-table;
+    width: 20%;
+    margin: 0 px;
+    /*background-color: #fbf9cc;
+    border: 1px solid rgb(5, 5, 5, 0.5);*/
+}
+
+#menu a {
+    display: block;
+    padding: 5%;
+    background: #249262;
+    border-radius: 10%;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background: #909090;
+}
+
+/*頁面標題設定*/
+h1 {
+    background-color: rgb(96, 139, 104);
+    color: rgba(255, 255, 255, 0.521);
+    border: 5px solid #fbf9cc;
+    width: 20%;
+    margin: 40px auto;
+    padding: 30px;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1;
+    border-radius: 50%;
+    box-shadow: #000 20px 20px 5px 10px;
+}
+
+/*次標題設定*/
+h2 {
+    padding: auto;
+    margin-bottom: 30px;
+    border: 1px dotted #94c8b1;
+    border-left: 10px solid #d0e35b;
+    color: #0f7549;
+}
+
+/*寵物圖*/
+.photo {
+    width: 200px;
+    height: 200px;
+}
+
+/*小標題設定*/
+.h-sub {
+    padding: 10px;
+    background-color: #fbf9cc;
+    color: #ff705b;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px #ffd0ad inset;
+}
+
+/*內容區塊邊框設定*/
+#contents {
+    width: 980px;
+    margin: 40px auto;
+    padding: 40px 80px;
+    border: 1px solid #fcfcfc;
+    background-color: #ffffffd3;
+}
+
+footer {
+    margin: 0 auto;
+}
+
+/*「更多介紹」連結設定*/
+
+
+/*連結圖示設定*/
+
+
+/*區塊間分隔*/
+
+
+/*文繞圖設定*/
+#imgL {
+    float: left;
+    margin-right: 20%;
+}
+
+#imgR {
+    float: right;
+    margin-left: 20%;
+}
+
+#img-round {
+    border-radius: 50%;
+}
+
+.clear {
+    clear: both;
+}
+
+/*圓形圖片設定*/
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}

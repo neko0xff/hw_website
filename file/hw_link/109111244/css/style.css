@@ -1,0 +1,97 @@
+/*請將網頁版面寬度設定為980px且置中、設定背景顏色。*/
+#another {
+    background-color: orange;
+}
+
+#container {
+    width: 980px;
+    margin: auto;
+    background-color: aquamarine;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#post {
+    background-color: gainsboro;
+}
+
+/*把相片跟你的中英文名字設定為左右並排，相片在左邊、名字在右邊*/
+#img_set1 {
+    width: 300px;
+    height: 300px;
+    border: 0cm;
+    border-width: thin medium thick;
+    border-color: white;
+    border-style: double;
+    border-width: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    border-radius: 50%;
+}
+
+#img_set2 {
+    width: 300px;
+    height: 300px;
+    border: 0cm;
+    border-width: thin medium thick;
+    border-color: white;
+    border-style: double;
+    border-width: 10px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+/*把相片跟你的中英文名字設定為左右並排，相片在左邊、名字在右邊*/
+.imgL {
+    float: left;
+    margin-left: 20px;
+}
+
+.nameR {
+    float: right;
+    margin-left: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+/*文字置中*/
+.str1 {
+    height: 25px;
+    outline: 1px none;
+    text-align: center;
+}
+
+.str2 {
+    text-align: center;
+}
+
+/*項目標題美化*/
+.tag1 {
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted #94c8b1;
+    border-left: 10px solid #d0e35b;
+    color: green;
+    text-align: center;
+}
+
+.menu li {
+    list-style-type: none;
+    border: 1px none wheat;
+    display: inline-block;
+    width: 30%;
+    margin: 0 10px;
+}
+
+.menu a {
+    display: block;
+    background-color: #6fbb9a;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu a:hover {
+    background-color: #90ddbb;
+}

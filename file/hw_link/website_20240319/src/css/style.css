@@ -1,0 +1,24 @@
+h1 {
+  color: White;
+  background-color: Green;
+  text-align: Center;
+}
+
+h2 {
+  color: White;
+  background-color: Green;
+  text-align: Center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+p {
+  color: black;
+  font-size: 1em;
+  text-align: center;
+}

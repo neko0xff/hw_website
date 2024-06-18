@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+}
+
+header {
+    height: 200px;
+    background-color: aliceblue;
+}
+
+nav {
+    height: 100px;
+    background-color: rgb(236, 250, 215);
+}
+
+main {
+    min-height: 1000px;
+    background-color: aqua;
+}
+
+footer {
+    height: 100px;
+    background-color: aquamarine;
+}
+
+aside {
+    width: 20%;
+    background-color: rgb(220, 245, 220);
+    min-height: 1000px;
+    float: left;
+}
+
+section {
+    width: 80%;
+    background-color: blanchedalmond;
+    min-height: 1000px;
+    float: left;
+}

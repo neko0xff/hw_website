@@ -1,0 +1,33 @@
+.products {
+    width: 80%;
+    display: flex;
+
+    margin: 0% auto;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.pic {
+    width: 360px;
+    height: 209px;
+    background-image: url(../img/frog/25.PNG);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ithem {
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.ithem:not(:last-child) {
+    margin-right: 10px;
+}
+
+.ithem-title {
+    color: aqua;
+    font-size: 6em;
+    font-family: 'Courier New', Courier, monospace;
+}

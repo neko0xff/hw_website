@@ -1,0 +1,23 @@
+.inner {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 10px;
+    font-size: 3em;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outter {
+    display: flex;
+    flex-direction: row;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
